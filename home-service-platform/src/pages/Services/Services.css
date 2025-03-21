@@ -1,0 +1,11 @@
+/* src/pages/Services/Services.css */
+.services {
+    padding: 40px 0;
+  }
+  
+  .services h1 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
