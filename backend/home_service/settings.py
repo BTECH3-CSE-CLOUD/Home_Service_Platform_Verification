@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'ai',
     'providers',
     'users',
-    'rest_framework',
     'corsheaders',
 ]
 
@@ -83,7 +82,7 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        # Database file will be created in your project directory
+        # Database file will be created in the project root
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
